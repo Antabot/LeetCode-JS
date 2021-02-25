@@ -22,3 +22,10 @@
 
 Tips: JS 中判断最好严格使用 ===，否则一些错误难以发现，比如 if 语句中单词拼写错误，结果恒为假但没有提示信息。
 
+### lcof05-替换空格
+
+请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+
+出处：[https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
+
+JS 字符串可直接使用下标访问字符，但无法修改。编写字符串替换函数（split、join）后遍历判断即可。
