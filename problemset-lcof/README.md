@@ -29,3 +29,11 @@ Tips: JS 中判断最好严格使用 ===，否则一些错误难以发现，比�
 出处：[https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
 
 JS 字符串可直接使用下标访问字符，但无法修改。编写字符串替换函数（split、join）后遍历判断即可。
+
+### lcof06-从尾到头打印链表
+
+输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
+
+出处：[https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
+
+由于 JS Array 的特性，可以遍历 push 再 reverse()，也可以递归。
