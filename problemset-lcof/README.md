@@ -37,3 +37,11 @@ JS 字符串可直接使用下标访问字符，但无法修改。编写字符�
 出处：[https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
 
 由于 JS Array 的特性，可以遍历 push 再 reverse()，也可以递归。
+
+### lcof07-重建二叉树
+
+输入某二叉树的前序遍历和中序遍历的结果，请重建该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
+
+出处：[https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)
+
+分治递归。（考虑使用迭代进一步提高效率）
